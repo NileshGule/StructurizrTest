@@ -1,7 +1,7 @@
 # Structurizr Test
 This repository is for a quick test of [structurizr](https://structurizr.com) features. Specifically to test the automatic code discovery.
 
-To run the program ensure that the bintray repository is added to maven repositories list. In my case I added it to the settings.xml file
+To run the program ensure that the bintray repository is added to maven repositories list. In my case I added it to the `settings.xml` file under the `m2` directory
 
 ```xml
 <repository>
