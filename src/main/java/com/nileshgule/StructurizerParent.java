@@ -45,7 +45,9 @@ public class StructurizerParent {
         Container webApplication = userInterface.addContainer("Web Application", "Description", "Apache Tomcat 7.x");
 
         ComponentFinder componentFinder = new ComponentFinder(
-                webApplication, "com.nileshgule", new TypeBasedComponentFinderStrategy(new NameSuffixTypeMatcher("Validator", "Validator implementations", "Java")));
+                webApplication,
+                "com.nileshgule",
+                new TypeBasedComponentFinderStrategy(new NameSuffixTypeMatcher("Validator", "Validator implementations", "Java")));
 
         Collection<Component> validators = componentFinder.findComponents();
 
