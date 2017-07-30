@@ -16,4 +16,4 @@ To run the program ensure that the bintray repository is added to maven reposito
 
 The program creates a simple [System Context diagram](Images/structurizr-36812-SystemContext.png) for a sample system. It also creates a [Component diagram](Images/structurizr-36812-Components.png) by dynamically finding all the classes with "validator" suffix.
 
-The program makes use of `ComponentFinder` strategy using `NameSuffixTypeMatcher`.  
+The program makes use of `TypeBasedComponentFinderStrategy` strategy using `NameSuffixTypeMatcher`.  
