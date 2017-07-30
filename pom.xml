@@ -32,7 +32,6 @@
             <artifactId>structurizr-core</artifactId>
             <version>1.0.0-RC3</version>
         </dependency>
-
     </dependencies>
 
     <build>
