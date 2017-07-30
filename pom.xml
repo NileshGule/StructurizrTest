@@ -21,6 +21,17 @@
             <version>1.0.0-RC3</version>
             <type>pom</type>
         </dependency>
+        <dependency>
+            <groupId>com.structurizr</groupId>
+            <artifactId>structurizr-dot</artifactId>
+            <version>1.0.0-RC3</version>
+            <type>pom</type>
+        </dependency>
+        <dependency>
+            <groupId>com.structurizr</groupId>
+            <artifactId>structurizr-core</artifactId>
+            <version>1.0.0-RC3</version>
+        </dependency>
 
     </dependencies>
 
